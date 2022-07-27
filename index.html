@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="college_name">Karunya Institute of Technology and Sciences</h1>
+      <hr />
+      <nav class="nav">
+        <ul>
+          <li class="about_us">
+            <a href="#"> About Us </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li class="addmissions">
+            <a href="Application Page.html"> Admissions </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li class="academic_calendar">
+            <a href="Academic Calendar.html"> Academic Calendar </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li>
+            <label>Search:</label>
+            <input placeholder="search" type="text" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div>
+        <br />
+        <img
+          class="img-hover-zoom"
+          src="./assests/karunyatechnology-cover-original.jpg"
+          alt="karunya-cover"
+        />
+        <hr />
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <h1>About Us</h1>
+          <p>
+            Karunya Institute of Technology and Sciences, was founded with the
+            noble vision to raise professionals and leaders of high academic
+            calibre and unblemished character, nurtured with a strong motivation
+            and commitment to serve humanity. The institution is the fulfillment
+            of the vision of its founders Late Dr. D. G. S. Dhinakaran and the
+            present Chancellor Dr. Paul Dhinakaran. Established in 1986 as an
+            Engineering College, it was granted an autonomous status in 1999 and
+            declared Deemed-to-be University by the University Grants Commission
+            (UGC) in recognition of its academic excellence by the Ministry of
+            Human Resources Development under section 3 of the UGC Act, 1956
+            vide notification no 9-3-2000-U3 dated 23.6.2004 of the Government
+            of India. Accredited by NAAC, the institution offers a wide array of
+            Bachelors, Masters and Doctoral Degree programmes in various
+            branches of Engineering, Biotechnology, Food processing and
+            Agricultural Sciences. From a humble beginning of 180 students, the
+            institution has rapidly grown to 8491 students and 452 faculty
+            representing 18 academic department. In the three decades of service
+            to higher education, Karunya Institute of Technology and Sciences
+            has made significant progression in teaching learning, research and
+            consultancy, innovation and transfer of technology, community
+            service and value education.
+          </p>
+          <hr />
+          <h3>Today's Talk</h3>
+          <!-- Audio track link -->
+          <audio
+            controls
+            autoplay
+            src="./assests/TunePocket-Electronic-Atmopshere-Intro-Opener-Preview.mp3"
+          >
+            Your Browser does not support the <code>audio</code> element.
+          </audio>
+        </div>
+
+        <div class="column">
+          <!-- YT video link as an embed -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/spyGgSmvJnw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer>
+      <div class="row">
+        <div class="column">
+          <form class="sigin-in" action="action.php">
+            <fieldset>
+              <legend>SigIn</legend>
+              <div class="form-box">
+                <table class="table-center">
+                  <tr>
+                    <th>
+                      <label>Username: </label>
+                    </th>
+                    <td>
+                      <input
+                        type="text"
+                        id="text"
+                        required
+                        placeholder="UserName"
+                      />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th>
+                      <label>Password: </label>
+                    </th>
+                    <td>
+                      <input
+                        type="password"
+                        id="password"
+                        required
+                        placeholder="Password"
+                      />
+                    </td>
+                  </tr>
+                </table>
+
+                <div class="login">
+                  <input type="submit" value="LogIn" />
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4658.539156940747!2d76.74569755860514!3d10.936997028746491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba866bd6aaaaaab%3A0xc650b8a75e7b51f0!2sKarunya%20Institute%20of%20Technology%20and%20Sciences%20(Deemed%20University)!5e0!3m2!1sen!2sin!4v1658504483159!5m2!1sen!2sin"
+            width="560"
+            height="315"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <hr />
+      <p>Created by SARATHI R URK20CS1081</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1 class="college_name">Karunya Institute of Technology and Sciences</h1>
+      <hr />
+      <nav class="nav">
+        <ul>
+          <li class="about_us">
+            <a href="./index.html"> About Us </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li class="addmissions">
+            <a href="#"> Admissions </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li class="academic_calendar">
+            <a href="Academic Calendar.html"> Academic Calendar </a>
+          </li>
+          <li>
+            <p>|</p>
+          </li>
+          <li>
+            <label>Search:</label>
+            <input placeholder="search" type="text" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <section>
+      <form action="submit.php" method="post">
+        <fieldset>
+          <legend>Application Form</legend>
+          <div class="application-form">
+            <table class="table-center">
+              <tr>
+                <th>
+                  <label>Name: </label>
+                </th>
+                <td>
+                  <input
+                    type="text"
+                    id="text"
+                    required
+                    placeholder="SARATHI R"
+                    disabled
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Application Form: </label></th>
+                <td>
+                  <input
+                    type="number"
+                    id="application_no"
+                    required
+                    placeholder="URK20CS1081"
+                    disabled
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <th>
+                  <label>Password: </label>
+                </th>
+                <td>
+                  <input
+                    type="password"
+                    id="password"
+                    required
+                    placeholder="*****"
+                    disabled
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Date of Birth: </label></th>
+                <td>
+                  <input type="date" id="dob" required />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Age: </label></th>
+                <td>
+                  <input type="number" id="age" required placeholder="" />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Mobile Number: </label></th>
+                <td>
+                  <input
+                    type="number"
+                    id="mobile_number"
+                    required
+                    placeholder="Enter Mobile Number"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Email: </label></th>
+                <td>
+                  <input
+                    type="email"
+                    id="email"
+                    required
+                    placeholder="sarathir@karunya.edu.in"
+                    disabled
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Gender: </label></th>
+                <td>
+                  <input type="radio" id="male" name="male" value="Male" />
+                  <label for="male">Male</label>
+                  <input type="radio" id="male" name="male" value="Fale" />
+                  <label for="female">Female</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Address: </label></th>
+                <td><textarea rows="4" cols="25" placeholder=""></textarea></td>
+              </tr>
+
+              <tr>
+                <th><label>Language Knows: </label></th>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="english"
+                    name="english"
+                    value="English"
+                  />
+                  <label for="english">English</label>
+
+                  <input
+                    type="checkbox"
+                    id="tamil"
+                    name="tamil"
+                    value="Tamil"
+                  />
+                  <label for="tamil">Tamil</label>
+
+                  <input
+                    type="checkbox"
+                    id="malayalam"
+                    name="malayalam"
+                    value="Malayalam"
+                  />
+                  <label for="malayalam">Malayalam</label>
+
+                  <input
+                    type="checkbox"
+                    id="telugu"
+                    name="telugu"
+                    value="Telugu"
+                  />
+                  <label for="Telugu">Telugu</label>
+
+                  <input type="checkbox" id="hindi" name="hin]" value="Hindi" />
+                  <label for="hindi">Hindi</label>
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Select Your Course: </label></th>
+                <td>
+                  <select>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <th><label>Upload Your Photo: </label></th>
+                <td><input type="file" id="myFile" name="filename" /></td>
+              </tr>
+              <tr>
+                <th></th>
+                <td>
+                  <progress id="file" value="50" max="100">50%</progress>
+                  <label for="file">50% Uploading Completed</label>
+                </td>
+              </tr>
+              <tr>
+                <th></th>
+                <td>
+                  <input type="submit" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+  <footer>
+    <hr />
+    <p>Created by SARATHI R URK20CS1081</p>
+  </footer>
+</html>
