@@ -91,6 +91,10 @@ table label {
   color: blue;
 }
 
+th {
+  float: left;
+}
+
 th,
 td {
   /* padding-top: 10px; */
